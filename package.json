@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-typescript-boilerplate",
+  "name": "@USERNAME/YOUR_REPOSITORY",
   "version": "1.0.0",
   "description": "Boilerplate for fast starting NodeJS projects",
   "main": "dist/index.js",
@@ -29,5 +29,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest"
+  },
+  "publishConfig": {
+    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
   }
 }
